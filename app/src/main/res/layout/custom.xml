@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="50dp"
+                android:layout_marginHorizontal="30dp" >
+
+                <View
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@color/red"
+                    android:id="@+id/red" />
+
+                <View
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="25dp"
+                    android:background="@color/yellow"
+                    android:id="@+id/Yellow" />
+
+                <View
+                    android:layout_width="80dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_height="80dp"
+                    android:background="@color/green"
+                    android:id="@+id/Green" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+                android:layout_marginHorizontal="30dp" >
+
+                <View
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@color/orange"
+                    android:id="@+id/orange" />
+
+                <View
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="25dp"
+                    android:background="@color/blue"
+                    android:id="@+id/Blue" />
+
+                <View
+                    android:layout_width="80dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_height="80dp"
+                    android:background="@color/pink"
+                    android:id="@+id/pink" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+                android:layout_marginHorizontal="30dp" >
+
+                <View
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@color/white"
+                    android:id="@+id/white" />
+
+                <View
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="25dp"
+                    android:background="@color/salad"
+                    android:id="@+id/salad" />
+
+                <View
+                    android:layout_width="80dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_height="80dp"
+                    android:background="@color/brown"
+                    android:id="@+id/Brown" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+                android:layout_marginHorizontal="30dp" >
+
+                <View
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@color/dark"
+                    android:id="@+id/dark" />
+
+                <View
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="25dp"
+                    android:background="@color/brownB"
+                    android:id="@+id/BrownB" />
+
+                <View
+                    android:layout_width="80dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_height="80dp"
+                    android:background="@color/purple_700"
+                    android:id="@+id/purple_700" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cornerRadius="10dp"
+            android:text="Set Color:^)"
+            android:id="@+id/btnSetColor"
+            android:textAllCaps="false"
+            android:layout_marginTop="600dp"
+            android:layout_marginStart="250dp" />
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.core.widget.NestedScrollView>
